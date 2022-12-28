@@ -1,0 +1,17 @@
+Componentes de presentación.
+    Se limitan a mostrar datos, tiene poca o nula lógica, están orientados únicamente al aspecto visual
+
+Estado:
+    Es un lugar en memoria donde puedo guardar un dato y va a persistir a lo largo de la ejecución de una función, sin el estado ninguna función que creemos va a servir, ya que una vez que se ejecuta una función, todas sus variables se van a la basura, me permite guardar un valor relacionado a un componente
+
+Hook (ganchos):
+    Son funciones dentro de la librería de REACT que me permiten cubrir diferentes necesidades
+
+
+/*---------------TEMAS VISTOS---------------*/
+1. Creación y reutilización de componentes
+2. Uso de props como parámetros
+3. Hacer fucniones onClick con botones
+4. Creación de contador (suma y resta)
+5. Exportación por default y export nombrados
+6. Puesta en práctica de la destructuración

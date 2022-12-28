@@ -1,0 +1,33 @@
+nav {
+    top: 0;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+nav div h3 {
+    letter-spacing: 5px;
+    font-size: 18px;
+    color: green;
+}
+
+nav .links ul {
+    display: flex;
+}
+
+nav .links ul li {
+    margin-right: 60px;
+    list-style: none;
+}
+
+nav .links ul li a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+nav .links ul li a:hover {
+    color: green;
+}
