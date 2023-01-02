@@ -1,0 +1,19 @@
+.cardWidget{
+    display: flex;
+    align-items: center;
+}
+.cardWidget span{
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.cardWidget h3{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cardWidget span:hover,
+.cardWidget h3:hover{
+    color: green;
+}
