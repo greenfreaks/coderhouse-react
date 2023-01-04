@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.items {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.title h1 {
+  text-align: center;
+}

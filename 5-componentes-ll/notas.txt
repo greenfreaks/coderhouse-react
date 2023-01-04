@@ -1,0 +1,23 @@
+Anatomía de un componente:
+    ->Props
+    ->State
+    ->Dom Sync
+    ->Lifecycle
+
+Reglas generales de los Hooks:
+    ->Deben ejecutarse siempre
+    ->No pueden ser ejecutados dentro de otras estructuras como IF, FOR o TENARIOS
+    ->Se ejecutan en orden y nunca simultáneo
+    -> No bloquear el rendering con tareas pesadas y sincrónicas
+    -> Ejecutar tareas asincrónicas con efectos secundarios luego del montaje (mount)
+
+Ciclos de vida: Son estados por los cuales pasa un componente a lo largo de su existencia
+    -> MONTAJE: se produce la primera vez que un componente va a generarse, incluyéndose en el DOM 
+    -> ACTUALIZACIÓN: Se produce cuando el componente generado se está actualizando
+    -> DESMONTAJE: Se produce cuando el componente se elimina del DOM
+
+/*------Temas Vistos-------*/
+1. Anatomía de un componente
+2. Reglas generales de los Hooks
+3. Ciclos de vida
+4. Hook Use effect
